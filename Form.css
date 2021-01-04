@@ -1,0 +1,128 @@
+/* CSS for Terms & Condition page */
+
+.BodyTnC {
+    background-color: aquamarine;
+    padding: 5%;
+}
+
+.TnC {
+    text-align: center;
+    font-size: 150%;
+}
+
+#tc {
+    font-size: 150%;
+    text-align: center;
+}
+
+
+/* CSS for sign in page */
+
+.signinform {
+    padding: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.signinbutton {
+    background-color: rgb(243, 83, 83);
+    color: rgb(255, 255, 255);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.8;
+}
+
+.signinbutton:hover {
+    opacity: 1;
+}
+
+.signup {
+    font-size: 120%;
+}
+
+
+/* CSS for Registration Form page */
+
+* {
+    box-sizing: border-box
+}
+
+.Formbody {
+    background-color: rgb(202, 240, 227);
+}
+
+.Registration {
+    padding-left,
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+input[type=text],
+input[type=password],
+input[type=tel],
+input[type=date],
+input[type=email] {
+    width: 60%;
+    padding: 1%;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #b2ecec;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=date]:focus,
+input[type=tel]:focus,
+input[type=email]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+select {
+    width: 60%;
+    padding: 1%;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #b2ecec;
+}
+
+select option {
+    background-color: #ddd;
+}
+
+hr {
+    border: 1px solid #aaa7a7;
+    margin-bottom: 2%;
+}
+
+.registerbutton,
+.reset {
+    background-color: rgb(243, 83, 83);
+    color: rgb(255, 255, 255);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.8;
+}
+
+.registerbutton:hover {
+    opacity: 1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.sign {
+    font-size: 120%;
+}
